@@ -1,0 +1,10 @@
+#!/home/Vjianke./vforum/env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'askbot==0.7.44','console_scripts','askbot-setup'
+__requires__ = 'askbot==0.7.44'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('askbot==0.7.44', 'console_scripts', 'askbot-setup')()
+    )
